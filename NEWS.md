@@ -1,3 +1,8 @@
+# CHANGES TO tabulapdf 1.2.1
+
+* Follows the same version as Tabula PDF for Java
+* Renames from `tabulizer` to `tabulapdf` (`tabula` is taken on CRAN)
+
 # CHANGES TO tabulizer 0.2.2
 
 * `extract_tables()` gets `outdir` argument for writing out CSV, TSV and JSON

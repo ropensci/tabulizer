@@ -26,7 +26,7 @@
 #' @examples
 #' \dontrun{
 #' # simple demo file
-#' f <- system.file("examples", "data.pdf", package = "tabulizer")
+#' f <- system.file("examples", "data.pdf", package = "tabulapdf")
 #' get_n_pages(file = f)
 #'
 #' # split PDF by page

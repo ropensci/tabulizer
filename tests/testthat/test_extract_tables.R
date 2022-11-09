@@ -1,6 +1,6 @@
 context("Minimum functionality of extract_tables")
 
-sf <- system.file("examples", "data.pdf", package = "tabulizer")
+sf <- system.file("examples", "data.pdf", package = "tabulapdf")
 
 test_that("It basically works", {
     tab1 <- extract_tables(sf)

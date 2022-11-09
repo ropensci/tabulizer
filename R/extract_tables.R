@@ -35,7 +35,7 @@
 #' @examples
 #' \dontrun{
 #' # simple demo file
-#' f <- system.file("examples", "data.pdf", package = "tabulizer")
+#' f <- system.file("examples", "data.pdf", package = "tabulapdf")
 #'
 #' # extract all tables
 #' extract_tables(f)
@@ -53,7 +53,6 @@
 #' extract_tables(f, pages = 2, output = "data.frame")
 #' }
 #' @seealso \code{\link{extract_areas}}, \code{\link{get_page_dims}}, \code{\link{make_thumbnails}}, \code{\link{split_pdf}}
-#' @import tabulizerjars
 #' @importFrom utils read.delim download.file
 #' @importFrom tools file_path_sans_ext
 #' @importFrom rJava J new .jfloat .jcall
